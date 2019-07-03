@@ -1,0 +1,19 @@
+{
+  "Name": "MultiplePersonality",
+  "UniqueId": "02fab0d2-269c-46d9-a040-fb4b379fbff5",
+  "Description": "Misty's multiple personality disorder.  Skill that shows 4 different personalities of Misty",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 60000,
+  "CleanupOnCancel": false,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
