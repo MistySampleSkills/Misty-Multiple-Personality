@@ -1,4 +1,4 @@
-misty.Debug("MakerFaire Skill is running")
+misty.Debug("Multiple Personality is running")
 
 // Return data when a bump sensor is pressed
 misty.AddPropertyTest("BumpSensor", "isContacted", "==", true, "boolean");
@@ -60,7 +60,7 @@ function _BumpSensor(data) {
             misty.Debug("front right bump sensor pressed");
             misty.DisplayImage("Angry.png");
             misty.PlayAudio("010-Eh.wav");
-            //Need to add in some movements too
+            //Need to add in some movements too like Head Roll and movement
             break
 
         case "Bump_FrontLeft":
