@@ -58,8 +58,8 @@ function _BumpSensor(data) {
         case "Bump_FrontRight":
             //Misty is Angry
             misty.Debug("front right bump sensor pressed");
-            misty.DisplayImage("Angry.png");
-            misty.PlayAudio("010-Eh.wav");
+            misty.DisplayImage("e_Anger.jpg");
+            misty.PlayAudio("s_Anger.wav");
             //Need to add in some movements too like Head Roll and movement
             break
 
@@ -67,22 +67,22 @@ function _BumpSensor(data) {
             misty.Debug("front left bump sensor pressed")
             //Misty is Sad
             //randomly plays a sound
-            misty.DisplayImage("Sad.png");
-            misty.PlayAudio("003-UmmMmmUmm.wav");
+            misty.DisplayImage("e_Sadness.jpg");
+            misty.PlayAudio("s_Sadness.wav");
             break
 
         case "Bump_RearRight":
             //Misty is Happy
             misty.Debug("rear right bump sensor pressed")
-            misty.DisplayImage("Happy.png");
-            misty.PlayAudio("007-OuuuUUO.wav");
+            misty.DisplayImage("e_Joy.jpg");
+            misty.PlayAudio("s_Joy.wav");
             break
 
         case "Bump_RearLeft":
             //Misty is Disdainful
             misty.Debug("rear left bump sensor pressed")
-            misty.DisplayImage("Disdainful.png");
-            misty.PlayAudio("044-RRrAaaRw.wav");
+            misty.DisplayImage("e_Disgust.jpg");
+            misty.PlayAudio("s_Disgust.wav");
             break
     }
 }
