@@ -1,5 +1,6 @@
 # Misty-Multiple-Personality
 
+*Last tested on `robotVersion 1.16.1.10505`*
 
 In this skill touching each of the bumper sensors will show a different Misty Personality
 
